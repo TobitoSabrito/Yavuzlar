@@ -10,7 +10,7 @@ $userList = array (
     'CorAnswer' => 3,
     'OtherAnswer1' => 1,
     'OtherAnswer2' => 2,
-    'OtherAnswer3' => 3,
+    'OtherAnswer3' => 5,
   ),
   1 => 
   array (
@@ -63,7 +63,7 @@ $userList = array (
   5 => 
   array (
     'id' => 26,
-    'questionname' => 'Allah 1 metin 2 MP^3',
+    'questionname' => 'Allah 1 metin 2 MP3',
     'difficulty' => 'ORTA',
     'diffid' => '2',
     'Questionfull' => 'asd',
@@ -72,5 +72,4 @@ $userList = array (
     'OtherAnswer2' => 'ass',
     'OtherAnswer3' => 'sss',
   ),
-);
-?>
+);?>
