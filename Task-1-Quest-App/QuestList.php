@@ -19,12 +19,15 @@ include 'conn.php';
 </style>
 
 <body>
+
+
   <div class="userList">
     
     
    
     <div class="search-bar">
       <button style="width: 200px;" id="homePageButton" onclick="goToHomePage()">Anasayfa</button>
+      <h1 class="baslik">SORU LİSTESİ</h1>
       <input type="text" id="searchInput" onkeyup="searchQuestions()" placeholder="Ara">
     </div>
 

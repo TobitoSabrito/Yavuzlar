@@ -1,0 +1,220 @@
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #000000;
+  box-shadow: 0 4px 8px rgba(32, 32, 32, 0.1);
+  text-align: center;
+}
+
+
+button, .btn-main {
+  width: 50%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  font-weight: bold;
+}
+
+button:hover, .btn-main:hover {
+  background-color: #d5d4d4;
+  color: #000;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+
+.form-container {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.search-bar {
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 2px solid #0472a5;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.difficulty-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.difficulty-filter label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.difficulty-filter select {
+  width: 200px;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.question-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-button:hover, .delete-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nextbtn {
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nextbtn:hover {
+  background-color: #d5d4d4;
+  color: #000;
+}
+
+.managment-div{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  
+}
+.questpage-div{
+  text-align: center;
+  align-items: center;
+ 
+  padding: 15px;
+  background-color: #000;
+   justify-content: center;
+}
+.main-div{
+  text-align: center;
+  align-items: center;
+  color: white;
+  padding: 15px;
+  background-color: #000;
+  justify-content: center;
+
+}
+.questions{
+  background-color: rgb(2, 18, 61);
+}
+.anasayfa-btn{
+  width: 50%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  font-weight: bold;
+
+}
+.maintable-div{
+  text-align: center;
+  align-items: center;
+  color: white;
+  padding: 15px;
+  background-color: #000;
+  justify-content: center;
+}
+#baslikbtn{
+  font-size: x-large;
+  width: 350px;
+  
+}
