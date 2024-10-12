@@ -4,6 +4,7 @@
 
 1. **Komut Çalıştırma**: 
    - Komut girin ve **Çalıştır** butonuna tıklayın. Çıktı, aşağıda görüntülenecektir.
+   - Bash komutları girmek her OS için yeterli olacaktır.
 
 2. **Dosya Yükleme**: 
    - Dosya seçin ve **Dosya Yükle** butonuna basarak yükleyin.
@@ -26,6 +27,7 @@
 
 1. **Run Command**: 
    - Enter a command and click **Run**. The output will be shown below.
+   - Using bash commands is enough for all OS's.
 
 2. **File Upload**: 
    - Select a file and click **Upload File** to upload it.
